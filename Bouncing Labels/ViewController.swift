@@ -48,6 +48,7 @@ class ViewController: UIViewController {
             }, completion: nil)
         iPhoneLabel.text = "iPhone App"
         iPhoneLabel.font = UIFont.boldSystemFontOfSize(48)
+        iPhoneLabel.textColor = UIColor.redColor()
         iPhoneLabel.sizeToFit()
         iPhoneLabel.center = CGPoint(x: 200, y: 90)
         view.addSubview(iPhoneLabel)
